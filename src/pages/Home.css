@@ -1,0 +1,57 @@
+/* Hero Section Background */
+.hero-section {
+  height: 60vh;
+  background: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Overlay to darken background for text */
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-overlay p {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+/* Search Bar */
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px 15px;
+  border: 2px solid #ff9800;
+  border-radius: 25px;
+  outline: none;
+  font-size: 1rem;
+}
+
+/* Menu Section */
+.menu-container {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.menu-container h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}

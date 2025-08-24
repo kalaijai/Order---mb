@@ -1,0 +1,55 @@
+/* Background */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  padding: 20px;
+}
+
+/* Contact Box */
+.contact-box {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 450px;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Inputs */
+.contact-box .form-control {
+  border-radius: 10px;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  transition: border 0.3s;
+}
+
+.contact-box .form-control:focus {
+  border-color: #ff6b6b;
+  box-shadow: none;
+}
+
+/* Button */
+.contact-btn {
+  background: linear-gradient(135deg, #ff6b6b, #fcb045, #36d1dc);
+  border: none;
+  padding: 12px;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+  background-size: 200% auto;
+}
+
+.contact-btn:hover {
+  background-position: right center;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
